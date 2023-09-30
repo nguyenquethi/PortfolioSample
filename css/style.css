@@ -3,17 +3,21 @@
     color: #212529;
     line-height: 1.5;
 } */
+/* animation */
+.animate__animated{
+    animation-duration: 1s;
+    
+}
 
 /* css header  */
 header .collapse .nav-link {
     color: white;
     position: relative;
 }
-  
+ 
 header .navbar-nav .nav-link.active{
     color: #35a22c;
 }
-
 header .collapse .nav-link::before{
     content: '';
     width: 0;
@@ -24,19 +28,15 @@ header .collapse .nav-link::before{
     bottom: 0;
     transition: all 0.5s;
 }
-
 header .collapse .nav-link:hover::before{
     width: 100%;
 }
-
 header .collapse .nav-link:hover {
     color: green;
-}
-  
+}  
 header .collapse .nav-item {
     margin: 0 10px;
 }
-
 header .navbar-nav .nav-link.active::before {
     width: 100%;
 }
@@ -46,20 +46,16 @@ header .navbar-nav .nav-link.active::before {
     width:150px;
     height: 150px;
 }
-
 .my_carousel .carousel-inner img{
     height: 100%;
     object-fit: cover;
 }
-
 .my_carousel .carousel-caption h5{
     font-size: 50px;
 }
-
 .my_carousel .carousel-caption p{
     font-size: 24px;
 }
-
 .my_carousel .carousel-caption {
     top:0;
     left: 0;
